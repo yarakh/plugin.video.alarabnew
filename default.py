@@ -1,5 +1,13 @@
 # -*- coding: utf8 -*-
 import urllib,urllib2,xbmcplugin,xbmcgui,xbmcaddon
+import cgi, re
+import HTMLParser
+import xbmcaddon
+import json
+import traceback
+import os
+import sys
+import cookielib
 
 __settings__ = xbmcaddon.Addon(id='plugin.video.alarab')
 __icon__ = __settings__.getAddonInfo('icon')
